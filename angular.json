@@ -27,7 +27,15 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/scripts/breakpoints.min.js",
+              "src/scripts/browser.min.js",
+              "src/scripts/jquery.min.js",
+              "src/scripts/jquery.scrollex.min.js",
+              "src/scripts/main.js",
+              "src/scripts/util.js",
+              "src/scripts/logger.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -96,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "61cc91cd-d92a-4abb-ac8c-80b7e22360d4"
   }
 }
